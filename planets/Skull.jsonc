@@ -33,7 +33,7 @@
 		"size": 900,
 		"useAtmosphereShader": true,
 		"fogSize": 200,
-		"fogDensity": 50,
+		"fogDensity": 0.7,
 		"fogTint": {
 			"a": 179,
 			"b": 170,
@@ -54,7 +54,7 @@
 		"longitudeOfAscendingNode": 10,
 		"siderealPeriod": 1
 	},
-	"Props": {"details": [{"assetBundle": ""}]},
+	"Props": {"details": [{"assetBundle": "Assets/skull.OBJ"}]},
 	"canShowOnTitle": true,
 	"buildPriority": -1
 }
