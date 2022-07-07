@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Shuit",
+  "name": "Skull Planet",
+  "uniqueName": "Shuit.SkullPlanet",
+  "version": "0.0.1",
+  "owmlVersion": "2.5.2",
+  "dependencies": ["xen.NewHorizons"]
+}
