@@ -15,10 +15,9 @@
 		"inclination": 20,
 		"innerRadius": 1350,
 		"longitudeOfAscendingNode": 20,
-		"maxSize": 70,
-		"minSize": 5,
-		"outerRadius": 2700,
-		"randomSeed": 128463
+		"maxSize": 30,
+		"minSize": 15,
+		"outerRadius": 2700
 	},
 	"Atmosphere": {
 		"atmosphereTint": {
@@ -27,12 +26,9 @@
 			"g": 120,
 			"r": 97
 		},
-		"hasOxygen": false,
-		"hasRain": false,
-		"hasSnow": false,
-		"size": 900,
+		"size": 9000,
 		"useAtmosphereShader": true,
-		"fogSize": 200,
+		"fogSize": 2000,
 		"fogDensity": 0.7,
 		"fogTint": {
 			"a": 179,
@@ -44,17 +40,14 @@
 	"Orbit": {
 		"primaryBody": "Sun",
 		"showOrbitLine": true,
-		"semiMajorAxis": 30000,
-		"axialTilt": 3,
-		"eccentricity": 0.2,
-		"argumentOfPeriapsis": 29000,
-		"inclination": -7,
+		"semiMajorAxis": 50000,
 		"isTidallyLocked": true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
-		"longitudeOfAscendingNode": 10,
 		"siderealPeriod": 1
 	},
-	"Props": {"details": [{"assetBundle": "Assets/skull.OBJ"}]},
-	"canShowOnTitle": true,
-	"buildPriority": -1
+	"Props": {
+		"details": [
+			{"assetBundle": "skullplanet", "path": "Assets/skull.OBJ", "position": {"x": 0, "y": 0, "z": 0}, "scale": 1000}
+		]
+	}
 }
